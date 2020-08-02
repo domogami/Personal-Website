@@ -1,0 +1,420 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: -apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+  font-size: 20px;
+  background: #efeeee;
+}
+
+.error {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.Main {
+  height: 970px;
+  background: url('../images/coffeelaptop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.MainGroup {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 150px 50px;
+  text-align: center;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto 20px auto;
+  animation: MainAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+
+/* Dominick Lee */
+.Main h1 {
+  margin: 0;
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: auto auto;
+  animation: MainAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+/* Hey, I'm */
+.Main p {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0 auto;
+  animation: MainAnimation 3s 0.1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+/* Fun text cursor animation */
+.Main h3 {
+  margin: auto;
+  padding-bottom: 35px;
+  padding-top: 10px;
+  font-weight: 300;
+  color: #c5c5c5;
+  font-size: 45px;
+  line-height: 1.2;
+  animation: MainAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+  opacity: 0;
+}
+
+/* Resume download button */
+.Main a {
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  text-transform: uppercase;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 9px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 20px;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  text-decoration: none;
+}
+
+.Main a:hover {
+  background: white;
+  color: black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px) scale(1.02, 1.02);
+}
+
+/* For Fun Appear */
+@keyframes MainAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* For fun wave */
+.Main {
+  position: relative;
+}
+
+.Main svg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+}
+
+/* Project enLIGHTen */
+
+.TopicHeader {
+  color: black;
+  font-weight: 400;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.FancyRectangle {
+  margin: auto;
+  background-color: black;
+  height: 5px;
+  width: 300px;
+}
+
+.Projects {
+  margin: auto;
+  background: #efeeee;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  object-fit: cover;
+}
+
+.enlightenUI {
+  width: 500px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.ProjectDescription {
+  margin: auto;
+  padding: auto;
+}
+
+/* About Me */
+
+.AboutMe {
+  margin: auto;
+  display: grid;
+  font-weight: 400;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  object-fit: cover;
+}
+.AboutMeDescription {
+  margin: auto;
+  padding: auto;
+}
+
+.CasualPhoto {
+  border-radius: 300px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+@media (max-width: 1000px) {
+  .enlightenUI {
+    margin: auto;
+    width: 400px;
+  }
+
+  .ProjectDescription {
+    padding: 20px;
+    max-width: 600px;
+  }
+
+  .Projects {
+    margin: auto;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  }
+
+  .CasualPhoto {
+    margin: auto;
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;
+  }
+
+  .AboutMe {
+    margin: auto;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    padding: auto;
+  }
+}
+
+/* For mobile */
+@media (max-width: 480px) {
+  .profile-img {
+    margin-top: 10px;
+  }
+  .enlightenUI {
+    margin: auto;
+    width: 300px;
+  }
+
+  .CasualPhoto {
+    margin: auto;
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+  }
+  .Main svg {
+    margin-bottom: -40px;
+  }
+  .Main {
+    height: 870px;
+  }
+}
+
+/* Fun social media footer */
+
+.footer ul {
+  padding-top: 100px;
+  margin: auto;
+  display: flex;
+  margin-left: -20px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer ul li a {
+  width: 70px;
+  height: 70px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 70px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #fff;
+  z-index: 1;
+}
+
+.footer ul li a i {
+  position: relative;
+  color: #282936;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.footer ul li a:hover i {
+  color: #fff;
+  transform: rotateY(360deg);
+}
+
+.footer ul li a:before {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.footer ul li a:hover:before {
+  top: 0;
+}
+
+.footer ul li:nth-child(1) a:before {
+  background: #3b5999;
+}
+
+.footer ul li:nth-child(2) a:before {
+  background: #55acee;
+}
+
+.footer ul li:nth-child(3) a:before {
+  background: #0077b5;
+}
+.footer ul li:nth-child(4) a:before {
+  background: #000000;
+}
+
+/* FUN BUTTONSSSS 
+#container {
+  align-self: center;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+.learn-more {
+  width: 14rem;
+  height: auto;
+}
+.learn-more .circle {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #282936;
+  border-radius: 1.625rem;
+}
+.learn-more .circle .icon {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+.learn-more .circle .icon.arrow {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+.learn-more .circle .icon.arrow::before {
+  position: absolute;
+  content: '';
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid #fff;
+  border-right: 0.125rem solid #fff;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.learn-more .button-text {
+  -webkit-transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 2rem;
+  color: #282936;
+  font-weight: 600;
+  line-height: 1.3;
+  text-align: center;
+  text-decoration: none;
+}
+button:hover .circle {
+  width: 100%;
+}
+button:hover .circle .icon .arrow {
+  background: #fff;
+  -webkit-transform: translate(1rem, 0);
+  transform: translate(1rem, 0);
+}
+button:hover .button-text {
+  color: #fff;
+}
+*/
+.react-rotating-text-cursor {
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
+    infinite;
+}
+
+@keyframes blinking-cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
