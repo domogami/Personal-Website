@@ -1,28 +1,18 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b895d876b2367ab77555cf489d0e6a0a",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin dev-404-page": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "id": "Plugin dev-404-page",
       "name": "dev-404-page",
       "version": "1.0.0",
@@ -34,7 +24,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/dev-404-page",
       "packageJson": {
         "name": "dev-404-page",
         "description": "Internal plugin to add a 404 page in development with helpful information",
@@ -51,13 +41,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f1f391d8223c1b8275355953bd4dc04a",
+        "contentDigest": "01348c727880e1464e631218cf03d5d0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin component-layout-creator": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "id": "Plugin component-layout-creator",
       "name": "component-layout-creator",
       "version": "1.0.0",
@@ -69,7 +59,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
       "packageJson": {
         "name": "component-layout-creator",
         "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
@@ -90,13 +80,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0d5aaa4ce72a77420a304f548d3344b2",
+        "contentDigest": "30f2f7bf4d123986f21011779141c68b",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin internal-data-bridge": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "id": "Plugin internal-data-bridge",
       "name": "internal-data-bridge",
       "version": "1.0.0",
@@ -109,7 +99,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
       "packageJson": {
         "name": "internal-data-bridge",
         "description": "An internal Gatsby plugin which creates data nodes from internal data",
@@ -126,13 +116,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "075cdf885d87c669a0e5f3521585223a",
+        "contentDigest": "a2717cdfa657d804304bc61239c3be36",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin prod-404": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "id": "Plugin prod-404",
       "name": "prod-404",
       "version": "1.0.0",
@@ -144,7 +134,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/prod-404",
       "packageJson": {
         "name": "prod-404",
         "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
@@ -161,13 +151,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "39603e0834dfb93ea9cde1b5a484005b",
+        "contentDigest": "62de2f2eda6c09e69ed9cf66470003ab",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin query-runner": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "id": "Plugin query-runner",
       "name": "query-runner",
       "version": "1.0.0",
@@ -180,7 +170,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby/dist/internal-plugins/query-runner",
       "packageJson": {
         "name": "query-runner",
         "description": "Internal plugin for running queries",
@@ -197,13 +187,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ef7d83ee1fed682410fc76e63cbe68bc",
+        "contentDigest": "48c15375e4b5b64417c8df462d634bfa",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-react-helmet": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby-plugin-react-helmet",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-react-helmet",
       "id": "Plugin gatsby-plugin-react-helmet",
       "name": "gatsby-plugin-react-helmet",
       "version": "2.0.11",
@@ -215,7 +205,7 @@
       "ssrAPIs": [
         "onRenderBody"
       ],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby-plugin-react-helmet",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-react-helmet",
       "packageJson": {
         "name": "gatsby-plugin-react-helmet",
         "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
@@ -274,13 +264,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "380dc2e1678c2b32db191b99e83af4b1",
+        "contentDigest": "88c3e31dba6068946ce4ad194e6ff96d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-sharp": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby-plugin-sharp",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
       "version": "2.6.24",
@@ -296,7 +286,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby-plugin-sharp",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-sharp",
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
@@ -417,13 +407,13 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "f17795b7d8b41e0d9859916a8ae038e1",
+        "contentDigest": "e7f4981aeb230bee73178c8ad5977dbe",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin default-site-plugin": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
       "version": "90d4bbaa710524cd17380f06d7db8c99",
@@ -435,7 +425,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website",
       "packageJson": {
         "name": "Doms-Site",
         "description": "Doms Personal Website",
@@ -560,19 +550,19 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a7ba7572f9db212bb426ea93cece8ba4",
+        "contentDigest": "02b72bb55f14a3df8261b9cecef9d421",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Plugin gatsby-plugin-page-creator": {
-      "resolve": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby-plugin-page-creator",
+      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-page-creator",
       "id": "Plugin gatsby-plugin-page-creator",
       "name": "gatsby-plugin-page-creator",
       "version": "1.0.1",
       "pluginOptions": {
         "plugins": [],
-        "path": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages",
+        "path": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages",
         "pathCheck": false
       },
       "nodeAPIs": [
@@ -580,7 +570,7 @@
       ],
       "browserAPIs": [],
       "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/node_modules/gatsby-plugin-page-creator",
+      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-page-creator",
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
@@ -642,7 +632,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "adb076a45ed4e47143dce725a7b2ca64",
+        "contentDigest": "37df6c37648c4d6cb5eee15958cd0eba",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -651,16 +641,14 @@
       "siteMetadata": {
         "title": "I'm Dominick Lee"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "/domogami.github.io",
       "polyfill": true,
-      "buildTime": "2020-08-02T19:42:43.783Z",
+      "buildTime": "2020-08-02T19:53:39.948Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "da6db913c6dc579d1a1411c10b2d7afd",
+        "contentDigest": "2ef986b3ec70dfae055f8fd9333e460b",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -670,18 +658,18 @@
       "jsonName": "404.json",
       "internalComponentName": "Component404",
       "path": "/404/",
-      "component": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/404.js",
+      "component": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/404.js",
+      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/404.js",
       "id": "SitePage /404/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "41205383df9ead0a03988c022c07caa1",
+        "contentDigest": "e6b678ad907df80d418fbfb7d07248e1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -691,18 +679,18 @@
       "jsonName": "blog.json",
       "internalComponentName": "ComponentBlog",
       "path": "/Blog/",
-      "component": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/Blog.js",
+      "component": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/Blog.js",
       "componentChunkName": "component---src-pages-blog-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/Blog.js",
+      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/Blog.js",
       "id": "SitePage /Blog/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fe6bbf611520e646998d0a56658adb85",
+        "contentDigest": "e141d93df3bd88030d009d4eb0a575a3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -712,18 +700,18 @@
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
       "path": "/",
-      "component": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/index.js",
+      "component": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/index.js",
+      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/index.js",
       "id": "SitePage /",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "20d2fa425cbebe71c6d9f441d1974103",
+        "contentDigest": "f8bfdab6076fee9facdcc39e754ea4dc",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -733,18 +721,18 @@
       "jsonName": "page-2.json",
       "internalComponentName": "ComponentPage2",
       "path": "/page-2/",
-      "component": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/page-2.js",
+      "component": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/page-2.js",
       "componentChunkName": "component---src-pages-page-2-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/page-2.js",
+      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/page-2.js",
       "id": "SitePage /page-2/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2d0b1124d9931bc4582e625f8225fe0e",
+        "contentDigest": "f6ef7a408817633153fb8f64fceacd51",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -754,18 +742,18 @@
       "jsonName": "404-html.json",
       "internalComponentName": "Component404Html",
       "path": "/404.html",
-      "component": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/404.js",
+      "component": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/404.js",
       "componentChunkName": "component---src-pages-404-js",
       "context": {},
       "pluginCreator___NODE": "Plugin prod-404",
       "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/domogami/Documents/GitHub/Doms_Personal_Site/src/pages/404.js",
+      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/404.js",
       "id": "SitePage /404.html",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "74aedc7a20e7b16e01513d5625773c8c",
+        "contentDigest": "3b0a9d15b1fa5367672f08704f9053e2",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
