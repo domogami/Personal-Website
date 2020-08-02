@@ -1,0 +1,23 @@
+.Main .BlogTitle {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.Main .Subheadline {
+  text-align: center;
+}
+
+.Main .Back {
+  padding: 40px;
+  text-align: center;
+}
+
+.Main {
+  position: relative;
+}
+
+.Main svg {
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+}
