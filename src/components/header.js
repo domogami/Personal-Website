@@ -33,7 +33,7 @@ class Header extends React.Component {
         <div className="HeaderGroup">
           <a href="/#AboutMe">About Me</a>
           <a href="/#Projects">Projects</a>
-          <Link to="/Blog">Blog</Link>
+          <Link to="/blog">Blog</Link>
           <a href="mailto:domogami@gmail.com">Contact</a>
         </div>
       </div>
