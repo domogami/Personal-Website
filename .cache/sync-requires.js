@@ -8,7 +8,7 @@ exports.layouts = {
 
 exports.components = {
   "component---src-pages-404-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/404.js")),
-  "component---src-pages-blog-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/Blog.js")),
+  "component---src-pages-blog-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/blog.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/index.js")),
   "component---src-pages-page-2-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/page-2.js"))
 }

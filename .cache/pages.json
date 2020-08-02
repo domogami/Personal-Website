@@ -11,7 +11,7 @@
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "blog.json",
-        "path": "/Blog/"
+        "path": "/blog/"
     },
     {
         "componentChunkName": "component---src-pages-index-js",

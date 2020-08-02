@@ -3,7 +3,7 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/domogami/Documents/GitHub/Personal-Website/src/pages/404.js"),
-  "component---src-pages-blog-js": require("gatsby-module-loader?name=component---src-pages-blog-js!/Users/domogami/Documents/GitHub/Personal-Website/src/pages/Blog.js"),
+  "component---src-pages-blog-js": require("gatsby-module-loader?name=component---src-pages-blog-js!/Users/domogami/Documents/GitHub/Personal-Website/src/pages/blog.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/domogami/Documents/GitHub/Personal-Website/src/pages/index.js"),
   "component---src-pages-page-2-js": require("gatsby-module-loader?name=component---src-pages-page-2-js!/Users/domogami/Documents/GitHub/Personal-Website/src/pages/page-2.js")
 }

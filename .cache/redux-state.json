@@ -535,6 +535,10 @@
         ],
         "devDependencies": [
           {
+            "name": "babel-preset-gatsby",
+            "version": "^0.5.4"
+          },
+          {
             "name": "gh-pages",
             "version": "^2.2.0"
           },
@@ -643,12 +647,12 @@
       },
       "pathPrefix": "/domogami.github.io",
       "polyfill": true,
-      "buildTime": "2020-08-02T19:57:47.652Z",
+      "buildTime": "2020-08-02T20:07:37.550Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ca57c12d6c4cff044363928b31183f5b",
+        "contentDigest": "f16122e3e43865d584b39a7dec3d17c9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -669,28 +673,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c50440b4643cc16224ba16fc0a753a63",
+        "contentDigest": "01582322919d387e9bc71647d99571f2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /Blog/": {
+    "SitePage /blog/": {
       "layout": "index",
       "jsonName": "blog.json",
       "internalComponentName": "ComponentBlog",
-      "path": "/Blog/",
-      "component": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/Blog.js",
+      "path": "/blog/",
+      "component": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/blog.js",
       "componentChunkName": "component---src-pages-blog-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/Blog.js",
-      "id": "SitePage /Blog/",
+      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/src/pages/blog.js",
+      "id": "SitePage /blog/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a1dbb67ffbbcd5359dab1ba77e712184",
+        "contentDigest": "97c577271c8a534ade8ff6b300bff070",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -711,7 +715,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3e19feb97d00b25127895e006da88b7f",
+        "contentDigest": "40debaf9826c101ccf63e0f81781bb9a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -732,7 +736,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9340766d53c26d852813309af120402d",
+        "contentDigest": "e2166fdd89ce582e961f1929ffdb83bd",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -753,7 +757,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "77af4cf8b05b11647b771845f84e496e",
+        "contentDigest": "140d1acca18ad0a0a9fa07771d0bdfd2",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +765,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "abb305509eef5596ab32b02706aa9724"
+    "PLUGINS_HASH": "aeafd00ddad052c52814a24198fe4600"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -769,10 +773,6 @@
         "LAYOUT___index"
       ]
     },
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }
