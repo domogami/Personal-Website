@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: -apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   line-height: 1.4;
@@ -18,7 +18,7 @@ body {
 
 .Main {
   height: 970px;
-  background: url('../images/coffeelaptop.jpg');
+  background: url("../images/coffeelaptop.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -118,7 +118,7 @@ body {
   left: 0;
 }
 
-/* Project enLIGHTen */
+/* Projects */
 
 .TopicHeader {
   color: black;
@@ -138,6 +138,9 @@ body {
 
 .Projects {
   margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-width: 1200px;
   background: #efeeee;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -156,6 +159,31 @@ body {
   padding: auto;
 }
 
+/* Experience */
+.ExperienceCard {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  max-width: 900px;
+}
+.ExperienceImage {
+  width: 200px;
+  margin: auto;
+}
+
+.ExperienceText h1 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 400;
+}
+.ExperienceText p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 300;
+}
 /* About Me */
 
 .AboutMe {
@@ -164,6 +192,9 @@ body {
   font-weight: 400;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   object-fit: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-width: 1200px;
 }
 .AboutMeDescription {
   margin: auto;
@@ -282,7 +313,7 @@ body {
 }
 
 .footer ul li a:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 100%;
   left: 0;

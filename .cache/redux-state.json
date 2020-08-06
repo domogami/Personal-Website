@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/domogami/Documents/GitHub/Personal-Website/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "1a77b60ca3ff3627ad3b29ffa884999e",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -416,7 +426,7 @@
       "resolve": "/Users/domogami/Documents/GitHub/Personal-Website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "90d4bbaa710524cd17380f06d7db8c99",
+      "version": "f6d97e992a98b07108365fa18296134d",
       "pluginOptions": {
         "plugins": []
       },
@@ -427,7 +437,7 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website",
       "packageJson": {
-        "name": "Doms-Site",
+        "name": "doms-site",
         "description": "Doms Personal Website",
         "version": "1.0.0",
         "keywords": [
@@ -471,6 +481,14 @@
           {
             "name": "gatsby-link",
             "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-manifest",
+            "version": "^2.4.21"
+          },
+          {
+            "name": "gatsby-plugin-offline",
+            "version": "^3.2.21"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -554,7 +572,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "02b72bb55f14a3df8261b9cecef9d421",
+        "contentDigest": "3ee0fcaa33f66bb00e700c5e1a353994",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -643,16 +661,19 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "I'm Dominick Lee"
+        "title": "I'm Dominick Lee",
+        "author": "@Domogami"
       },
-      "pathPrefix": "/domogami.github.io",
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-08-02T20:26:08.976Z",
+      "buildTime": "2020-08-05T23:04:33.931Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0d09abef3d31ca563865705442501ac0",
+        "contentDigest": "df857907005815f5751afe7c055a26d3",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -673,7 +694,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "94001a0594e7bdc519217058f9c220b7",
+        "contentDigest": "a88f3cd073ffaea7fdc8798f6773be83",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -694,7 +715,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a392dc26d257389099fd7d0a2d4207ce",
+        "contentDigest": "c3f0c2f043ac1c4f838ea87c76e48368",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -715,7 +736,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b31c8200d20bc6ae1295c4c284890fa4",
+        "contentDigest": "eff62e12fef22433cb8a936c5cbc1d7a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -736,7 +757,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4510c0f81ad786dc9ebb39b9b4fa6149",
+        "contentDigest": "a035fda17c3032817300b7702a44f227",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -757,7 +778,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "56591b961a9d9a61813515ca6bd17a28",
+        "contentDigest": "cc54dcd684b0009a8b97eb670e823525",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -765,7 +786,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "aeafd00ddad052c52814a24198fe4600"
+    "PLUGINS_HASH": "8214fe05c83dc59d7b4c959fec9418a2"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -773,6 +794,10 @@
         "LAYOUT___index"
       ]
     },
-    "connections": {}
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
   }
 }

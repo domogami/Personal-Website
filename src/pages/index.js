@@ -1,14 +1,16 @@
-import React from 'react'
-import ProjectCard from '../components/ProjectCard.js'
-import ProjectCardNoLink from '../components/ProjectCardNoLink.js'
-import CasualPhoto from '../images/casualPhoto2.jpg'
-import Resume from '../downloads/technical_resume.pdf'
-import Light from '../images/Light.png'
-import Office from '../images/Office.png'
-import Time from '../images/Time.png'
-import Profile from '../images/profile.jpg'
-import '../../node_modules/font-awesome/css/font-awesome.min.css'
-var ReactRotatingText = require('react-rotating-text')
+import React from "react";
+import ProjectCard from "../components/ProjectCard.js";
+import ProjectCardNoLink from "../components/ProjectCardNoLink.js";
+import CasualPhoto from "../images/casualPhoto2.jpg";
+import Resume from "../downloads/technical_resume.pdf";
+import Light from "../images/Light.png";
+import Office from "../images/Office.png";
+import Time from "../images/Time.png";
+import Profile from "../images/profile.jpg";
+import "../../node_modules/font-awesome/css/font-awesome.min.css";
+import LogiLeap from "../images/LogiLeapLogoCircle.png";
+import IEEE from "../images/ieeelogodark.png";
+var ReactRotatingText = require("react-rotating-text");
 
 const IndexPage = () => (
   <div>
@@ -20,12 +22,12 @@ const IndexPage = () => (
         {/* A JSX comment */}
         <h3>
           <ReactRotatingText
-            items={['Student', 'Developer', 'Leader', 'Designer']}
+            items={["Student", "Developer", "Leader", "Designer"]}
           />
         </h3>
 
         <a href={Resume} download="Resume">
-          Download Résumé{' '}
+          Download Résumé{" "}
         </a>
         <svg width="100%" height="172" viewBox="0 0 100% 172" fill="none">
           <path fill="#EFEEEE">
@@ -53,9 +55,9 @@ const IndexPage = () => (
     <div className="Projects">
       <div className="ProjectDescription">
         <ProjectCard
-          title="enLIGHTen"
-          link="https://github.com/domogami/enLIGHTen"
-          text="enLIGHTEN is an IEEE First Place project that allows users to not only control light switches from an app but also enable a machine learning camera to turn on only the lights in the area you are currently in. The project earned first place at UCSD's IEEE Branch QP Competiton and made use of SwiftUI, Python, ESPs, and a Raspberry pi"
+          title="Office Inc."
+          link="https://github.com/domogami/Office-Simulator"
+          text="Office Inc. is an iOS game coming soon to the App Store. You are in the shoes of an averege office employee and make decisions leading you closer down the path of your choosing. You can discover the dark secrets of the company or find some office romance."
         />
       </div>
       <img src={Office} className="enlightenUI" />
@@ -64,9 +66,9 @@ const IndexPage = () => (
       <img src={Time} className="enlightenUI" />
       <div className="ProjectDescription">
         <ProjectCard
-          title="enLIGHTen"
-          link="https://github.com/domogami/enLIGHTen"
-          text="enLIGHTEN is an IEEE First Place project that allows users to not only control light switches from an app but also enable a machine learning camera to turn on only the lights in the area you are currently in. The project earned first place at UCSD's IEEE Branch QP Competiton and made use of SwiftUI, Python, ESPs, and a Raspberry pi"
+          title="TimeZone Hero"
+          link="https://github.com/domogami/"
+          text="TimeZone Hero is an application that shows the user the current time in different regions. Uniquely, the user can alter the time in one zone and see all corresponding timezone changes across regions, making scheduling meetings a breeze. Coming soon to the AppStore"
         />
       </div>
     </div>
@@ -80,6 +82,33 @@ const IndexPage = () => (
       </div>
       <img src={Light} className="enlightenUI" />
     </div>
+
+    <div id="Experience">
+      <h1 className="TopicHeader">Experience</h1>
+      <h1 className="FancyRectangle"></h1>
+    </div>
+    <div className="ExperienceCard">
+      <img src={LogiLeap} className="ExperienceImage" />
+      <div className="ExperienceText">
+        <h1>iOS Development Internship</h1>
+        <p>
+          Developed three mobile applications including a timezone converting
+          app, augmented reality app and a grocery application using Firebase,
+          SwiftUI and ARKit
+        </p>
+      </div>
+    </div>
+    <div className="ExperienceCard">
+      <img src={IEEE} className="ExperienceImage" />
+      <div className="ExperienceText">
+        <h1>IEEE Officer - Webmaster</h1>
+        <p>
+          Developed IEEE San Diego Branch Website using React with Javascript,
+          CSS and HTML
+        </p>
+      </div>
+    </div>
+
     <div id="AboutMe">
       <h1 className="TopicHeader">About Me</h1>
       <h1 className="FancyRectangle"></h1>
@@ -97,7 +126,7 @@ const IndexPage = () => (
       <ul>
         <li>
           <a href="https://www.facebook.com/d314lee">
-            <i className="fa fa-facebook"></i>{' '}
+            <i className="fa fa-facebook"></i>{" "}
           </a>
         </li>
         <li>
@@ -118,6 +147,6 @@ const IndexPage = () => (
       </ul>
     </div>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

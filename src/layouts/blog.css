@@ -21,3 +21,12 @@
   bottom: -40px;
   left: 0;
 }
+.tab {
+  padding-left: 2px;
+}
+.BlogText {
+  margin: auto;
+  padding: 20px;
+  max-width: 1200px;
+  line-height: 1.5;
+}

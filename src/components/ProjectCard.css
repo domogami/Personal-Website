@@ -4,13 +4,12 @@
   display: grid;
   grid-template-rows: 1fr 2fr 1fr;
   align-items: center;
-  max-width: 700px;
+  max-width: 500px;
 }
 
 .Card p {
   text-align: center;
   font-size: 20px;
-  padding: 10px;
 }
 
 .Card h1 {
@@ -29,7 +28,7 @@
   color: black;
   font-size: 25px;
   font-weight: 200;
-  line-height: 2;
+  line-height: 1.7;
   margin: auto;
 }
 
@@ -87,7 +86,7 @@ button {
 }
 .learn-more .circle .icon.arrow::before {
   position: absolute;
-  content: '';
+  content: "";
   top: -0.25rem;
   right: 0.0625rem;
   width: 0.625rem;

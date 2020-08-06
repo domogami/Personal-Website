@@ -1,9 +1,9 @@
 {
-  "name": "Doms-Site",
+  "name": "doms-site",
   "description": "Doms Personal Website",
   "version": "1.0.0",
   "author": "Dominick Lee <Domogami@gmail.com>",
-  "homepage": "http://domogami.github.io/",
+  "homepage": "http://dominicklee.net/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -14,6 +14,8 @@
     "font-awesome": "^4.7.0",
     "gatsby": "^1.9.279",
     "gatsby-link": "^1.6.46",
+    "gatsby-plugin-manifest": "^2.4.21",
+    "gatsby-plugin-offline": "^3.2.21",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "gatsby-plugin-sharp": "^2.6.24",
     "gatsby-source-filesystem": "^2.3.23",
@@ -49,6 +51,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/domogami/Personal-Website"
   }
 }
