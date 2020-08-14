@@ -118,7 +118,7 @@ const IndexPage = () => (
       <div className="AboutMeDescription">
         <ProjectCardNoLink
           title="I'm Dominick Lee"
-          text="I am a second year at UC San Diego in search of a software development internship. I have varied experience with Swift, Python, Java, C, ARM, HTML, CSS, Javascript, React, and React Native. I hope to expand my skillsets and be an asset to an employer willing to provide me with an opportunity."
+          text="I am a Junior at UC San Diego in search of a software development internship. I have varied experience with Swift, SwiftUI, Python, Java, C, C++, ARM, HTML, CSS, Javascript, React, React Native, and Dart. I hope to expand my skillsets and be an asset to an employer willing to provide me with an opportunity."
         />
       </div>
     </div>

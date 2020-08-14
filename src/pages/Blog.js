@@ -35,43 +35,13 @@ const BlogPage = () => (
     </div>
     <div className="Entry">
       <p className="BlogText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis
-        blandit turpis cursus in. Non enim praesent elementum facilisis leo.
-        Dignissim enim sit amet venenatis urna cursus. Non sodales neque sodales
-        ut etiam sit amet nisl purus. Odio euismod lacinia at quis. Leo vel orci
-        porta non pulvinar neque laoreet suspendisse interdum. Enim ut tellus
-        elementum sagittis vitae et. Vitae proin sagittis nisl rhoncus mattis.
-        Pharetra massa massa ultricies mi quis hendrerit dolor. Aliquet eget sit
-        amet tellus cras. Aliquet bibendum enim facilisis gravida neque
-        convallis a cras semper. Viverra maecenas accumsan lacus vel facilisis
-        volutpat. Amet tellus cras adipiscing enim eu turpis. Enim praesent
-        elementum facilisis leo. <br></br>
+        I went to visit my Grandma's house to help my dad clear his old things
+        out and I found my uncles old road bike. He said I could have it so I
+        brought it back and began restoring it. I now have a beautiful 1989
+        Bianchi SuperLeggera and have began cycling! I'm considering joining the
+        UCSD Cycling team to see where that leads me.
         <br></br>
-        Sed nisi lacus sed viverra tellus. Sodales ut etiam sit amet nisl. Id
-        porta nibh venenatis cras. Sit amet risus nullam eget felis eget nunc
-        lobortis mattis. Lorem ipsum dolor sit amet consectetur adipiscing elit.
-        Eget arcu dictum varius duis. Morbi enim nunc faucibus a pellentesque
-        sit amet porttitor. Mi quis hendrerit dolor magna. Sit amet dictum sit
-        amet justo donec enim diam vulputate. Et magnis dis parturient montes
-        nascetur ridiculus. Imperdiet dui accumsan sit amet. Rhoncus aenean vel
-        elit scelerisque mauris pellentesque pulvinar pellentesque. Urna duis
-        convallis convallis tellus id interdum velit laoreet. Euismod lacinia at
-        quis risus sed vulputate. Tincidunt nunc pulvinar sapien et ligula
-        ullamcorper malesuada proin. <br></br>
         <br></br>
-        Est pellentesque elit ullamcorper dignissim. Adipiscing tristique risus
-        nec feugiat in fermentum. Tortor condimentum lacinia quis vel. Imperdiet
-        proin fermentum leo vel orci. Non odio euismod lacinia at quis. Eget mi
-        proin sed libero enim sed faucibus. Sit amet est placerat in egestas
-        erat imperdiet. Sit amet cursus sit amet dictum sit. Tellus in metus
-        vulputate eu scelerisque. In cursus turpis massa tincidunt dui ut ornare
-        lectus sit. Viverra justo nec ultrices dui sapien eget mi proin. Sed
-        adipiscing diam donec adipiscing. Iaculis at erat pellentesque
-        adipiscing commodo elit at. Ac tincidunt vitae semper quis lectus nulla.
-        Faucibus a pellentesque sit amet porttitor eget. Venenatis a condimentum
-        vitae sapien pellentesque habitant. Felis imperdiet proin fermentum leo
-        vel.
       </p>
     </div>
     <div id="Projects">
@@ -80,43 +50,41 @@ const BlogPage = () => (
     </div>
     <div className="Entry">
       <p className="BlogText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Purus gravida quis
-        blandit turpis cursus in. Non enim praesent elementum facilisis leo.
-        Dignissim enim sit amet venenatis urna cursus. Non sodales neque sodales
-        ut etiam sit amet nisl purus. Odio euismod lacinia at quis. Leo vel orci
-        porta non pulvinar neque laoreet suspendisse interdum. Enim ut tellus
-        elementum sagittis vitae et. Vitae proin sagittis nisl rhoncus mattis.
-        Pharetra massa massa ultricies mi quis hendrerit dolor. Aliquet eget sit
-        amet tellus cras. Aliquet bibendum enim facilisis gravida neque
-        convallis a cras semper. Viverra maecenas accumsan lacus vel facilisis
-        volutpat. Amet tellus cras adipiscing enim eu turpis. Enim praesent
-        elementum facilisis leo. <br></br>
+        At the time of writing this I have been interning with LogiLeap for a
+        little over a month. During that time I had the opportunity to connect
+        with some incredible people and collaborate on an Augmented Reality
+        application. Additionally, I singlehandedly made a time zone converstion
+        app using SwiftUI that I am told will be published to the App Store
+        soon! LogiLeap is an amazing company that does some amazing work and I
+        am proud to be an intern here.
         <br></br>
-        Sed nisi lacus sed viverra tellus. Sodales ut etiam sit amet nisl. Id
-        porta nibh venenatis cras. Sit amet risus nullam eget felis eget nunc
-        lobortis mattis. Lorem ipsum dolor sit amet consectetur adipiscing elit.
-        Eget arcu dictum varius duis. Morbi enim nunc faucibus a pellentesque
-        sit amet porttitor. Mi quis hendrerit dolor magna. Sit amet dictum sit
-        amet justo donec enim diam vulputate. Et magnis dis parturient montes
-        nascetur ridiculus. Imperdiet dui accumsan sit amet. Rhoncus aenean vel
-        elit scelerisque mauris pellentesque pulvinar pellentesque. Urna duis
-        convallis convallis tellus id interdum velit laoreet. Euismod lacinia at
-        quis risus sed vulputate. Tincidunt nunc pulvinar sapien et ligula
-        ullamcorper malesuada proin. <br></br>
         <br></br>
-        Est pellentesque elit ullamcorper dignissim. Adipiscing tristique risus
-        nec feugiat in fermentum. Tortor condimentum lacinia quis vel. Imperdiet
-        proin fermentum leo vel orci. Non odio euismod lacinia at quis. Eget mi
-        proin sed libero enim sed faucibus. Sit amet est placerat in egestas
-        erat imperdiet. Sit amet cursus sit amet dictum sit. Tellus in metus
-        vulputate eu scelerisque. In cursus turpis massa tincidunt dui ut ornare
-        lectus sit. Viverra justo nec ultrices dui sapien eget mi proin. Sed
-        adipiscing diam donec adipiscing. Iaculis at erat pellentesque
-        adipiscing commodo elit at. Ac tincidunt vitae semper quis lectus nulla.
-        Faucibus a pellentesque sit amet porttitor eget. Venenatis a condimentum
-        vitae sapien pellentesque habitant. Felis imperdiet proin fermentum leo
-        vel.
+        With the help of some friends, I have been able to start development of
+        a passion project called Office Inc. which is an iOS mobile game about
+        an average office employee who slowly uncovers the dark secrets about
+        the company they work for. The game features a non-linear storyline and
+        can be played dozens of times with interesting and unique endings! With
+        the help of two of my friends, I was able to make this vision into a
+        reality. My friend Max Zekowski wrote the storylines and my friend Eric
+        drew all illusrations by hand using Adobe Illustrator. Combined, this
+        application may become a reality with a little more work from my friends
+        and me.
+        <br></br>
+        <br></br>
+        This summer I have done some traveling to Bakersfield and San Francisco
+        to visit my Grandmother's grave. She passed away this Spring and I was
+        unable to go to her funeral because of Covid but I am thankful that I
+        was able to have some sort of gathering months later. Quarentine has
+        been a unique experience and I have used the time for self-reflection
+        and self-improvement. I've learned so many new skills and I hope that I
+        will come away from this summer with more passion and an even greater
+        number of tools to achieve my dream of becoming a Software Engineer.
+        <br></br>
+        <br></br>
+        On a personal note, I am lucky enough to live about 2 hours away from my
+        girlfriend and have been able to commute to visit her around once a
+        week. She inspires me to work harder but to maintain a healthy balance
+        of exercise, sleep, hobbies and work.
       </p>
     </div>
   </div>
