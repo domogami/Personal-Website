@@ -1,13 +1,20 @@
 import React, { Component } from "react";
 import "./ProjectCard.css";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
-import AOS from "aos";
+
 import "../../node_modules/aos/dist/aos.css";
 
 class ProjectCard extends Component {
-  constructor(props, context) {
-    super(props, context);
-    AOS.init();
+  componentDidMount() {
+    const isBrowser = typeof window !== "undefined";
+    const AOS = isBrowser ? require("aos") : undefined;
+
+    this.aos = AOS;
+    this.aos.init();
+  }
+
+  componentDidUpdate() {
+    this.aos.refresh();
   }
   render() {
     return (

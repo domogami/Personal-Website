@@ -11,8 +11,6 @@ import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import LogiLeap from "../images/LogiLeapLogoCircle.png";
 import IEEE from "../images/ieeelogodark.png";
 var ReactRotatingText = require("react-rotating-text");
-import AOS from "aos";
-import "../../node_modules/aos/dist/aos.css";
 
 const IndexPage = () => (
   <div>
