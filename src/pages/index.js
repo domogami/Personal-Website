@@ -11,6 +11,8 @@ import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import LogiLeap from "../images/LogiLeapLogoCircle.png";
 import IEEE from "../images/ieeelogodark.png";
 var ReactRotatingText = require("react-rotating-text");
+import AOS from "aos";
+import "../../node_modules/aos/dist/aos.css";
 
 const IndexPage = () => (
   <div>
@@ -52,60 +54,95 @@ const IndexPage = () => (
       <h1 className="TopicHeader">Projects</h1>
       <h1 className="FancyRectangle"></h1>
     </div>
-    <div className="Projects">
-      <div className="ProjectDescription">
-        <ProjectCard
-          title="Office Inc."
-          link="https://github.com/domogami/Office-Simulator"
-          text="Office Inc. is an iOS game coming soon to the App Store. You are in the shoes of an averege office employee and make decisions leading you closer down the path of your choosing. You can discover the dark secrets of the company or find some office romance."
-        />
-      </div>
-      <img src={Office} className="enlightenUI" />
-    </div>
-    <div className="Projects">
-      <img src={Time} className="enlightenUI" />
-      <div className="ProjectDescription">
-        <ProjectCard
-          title="TimeZone Hero"
-          link="https://github.com/domogami/"
-          text="TimeZone Hero is an application that shows the user the current time in different regions. Uniquely, the user can alter the time in one zone and see all corresponding timezone changes across regions, making scheduling meetings a breeze. Coming soon to the AppStore"
-        />
+    <div
+      data-aos="fade-left"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="11000"
+    >
+      <div className="Projects">
+        <div className="ProjectDescription">
+          <ProjectCard
+            title="Office Inc."
+            link="https://github.com/domogami/Office-Simulator"
+            text="Office Inc. is an iOS game coming soon to the App Store. You are in the shoes of an averege office employee and make decisions leading you closer down the path of your choosing. You can discover the dark secrets of the company or find some office romance."
+          />
+        </div>
+        <img src={Office} className="enlightenUI" />
       </div>
     </div>
-    <div className="Projects">
-      <div className="ProjectDescription">
-        <ProjectCard
-          title="enLIGHTen"
-          link="https://github.com/domogami/enLIGHTen"
-          text="enLIGHTEN is an IEEE First Place project that allows users to not only control light switches from an app but also enable a machine learning camera to turn on only the lights in the area you are currently in. The project earned first place at UCSD's IEEE Branch QP Competiton and made use of SwiftUI, Python, ESPs, and a Raspberry pi"
-        />
+    <div
+      data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="11000"
+    >
+      <div className="Projects">
+        <img src={Time} className="enlightenUI" />
+        <div className="ProjectDescription">
+          <ProjectCard
+            title="TimeZone Hero"
+            link="https://github.com/domogami/"
+            text="TimeZone Hero is an application that shows the user the current time in different regions. Uniquely, the user can alter the time in one zone and see all corresponding timezone changes across regions, making scheduling meetings a breeze. Coming soon to the AppStore"
+          />
+        </div>
       </div>
-      <img src={Light} className="enlightenUI" />
+    </div>
+    <div
+      data-aos="fade-left"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="11000"
+    >
+      <div className="Projects">
+        <div className="ProjectDescription">
+          <ProjectCard
+            title="enLIGHTen"
+            link="https://github.com/domogami/enLIGHTen"
+            text="enLIGHTEN is an IEEE First Place project that allows users to not only control light switches from an app but also enable a machine learning camera to turn on only the lights in the area you are currently in. The project earned first place at UCSD's IEEE Branch QP Competiton and made use of SwiftUI, Python, ESPs, and a Raspberry pi"
+          />
+        </div>
+        <img src={Light} className="enlightenUI" />
+      </div>
     </div>
 
     <div id="Experience">
       <h1 className="TopicHeader">Experience</h1>
       <h1 className="FancyRectangle"></h1>
     </div>
-    <div className="ExperienceCard">
-      <img src={LogiLeap} className="ExperienceImage" />
-      <div className="ExperienceText">
-        <h1>iOS Development Internship</h1>
-        <p>
-          Developed three mobile applications including a timezone converting
-          app, augmented reality app and a grocery application using Firebase,
-          SwiftUI and ARKit
-        </p>
+    <div
+      data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="11000"
+    >
+      <div className="ExperienceCard">
+        <img src={LogiLeap} className="ExperienceImage" />
+        <div className="ExperienceText">
+          <h1>iOS Development Internship</h1>
+          <p>
+            Developed three mobile applications including a timezone converting
+            app, augmented reality app and a grocery application using Firebase,
+            SwiftUI and ARKit
+          </p>
+        </div>
       </div>
     </div>
-    <div className="ExperienceCard">
-      <img src={IEEE} className="ExperienceImage" />
-      <div className="ExperienceText">
-        <h1>IEEE Officer - Webmaster</h1>
-        <p>
-          Developed IEEE San Diego Branch Website using React with Javascript,
-          CSS and HTML
-        </p>
+    <div
+      data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="11000"
+    >
+      <div className="ExperienceCard">
+        <img src={IEEE} className="ExperienceImage" />
+        <div className="ExperienceText">
+          <h1>IEEE Officer - Webmaster</h1>
+          <p>
+            Developed IEEE San Diego Branch Website using React with Javascript,
+            CSS and HTML
+          </p>
+        </div>
       </div>
     </div>
 
@@ -114,12 +151,26 @@ const IndexPage = () => (
       <h1 className="FancyRectangle"></h1>
     </div>
     <div className="AboutMe">
-      <img src={CasualPhoto} className="CasualPhoto" />
-      <div className="AboutMeDescription">
-        <ProjectCardNoLink
-          title="I'm Dominick Lee"
-          text="I am a Junior at UC San Diego in search of a software development internship. I have varied experience with Swift, SwiftUI, Python, Java, C, C++, ARM, HTML, CSS, Javascript, React, React Native, and Dart. I hope to expand my skillsets and be an asset to an employer willing to provide me with an opportunity."
-        />
+      <div
+        data-aos="fade-right"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="11000"
+      >
+        <img src={CasualPhoto} className="CasualPhoto" />
+      </div>
+      <div
+        data-aos="fade-left"
+        data-aos-delay="100"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="11000"
+      >
+        <div className="AboutMeDescription">
+          <ProjectCardNoLink
+            title="I'm Dominick Lee"
+            text="I am a Junior at UC San Diego in search of a software development internship. I have varied experience with Swift, SwiftUI, Python, Java, C, C++, ARM, HTML, CSS, Javascript, React, React Native, and Dart. I hope to expand my skillsets and be an asset to an employer willing to provide me with an opportunity."
+          />
+        </div>
       </div>
     </div>
     <div className="footer">

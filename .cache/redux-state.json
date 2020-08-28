@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "697d13aa9781029aa59f2e79c448d0dc",
+        "contentDigest": "b7baedc166585794e3dab3c58b35e541",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -283,7 +283,7 @@
       "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-sharp",
       "id": "Plugin gatsby-plugin-sharp",
       "name": "gatsby-plugin-sharp",
-      "version": "2.6.24",
+      "version": "2.6.29",
       "pluginOptions": {
         "plugins": [],
         "useMozJpeg": false,
@@ -300,7 +300,7 @@
       "packageJson": {
         "name": "gatsby-plugin-sharp",
         "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.6.24",
+        "version": "2.6.29",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -332,7 +332,7 @@
           },
           {
             "name": "gatsby-core-utils",
-            "version": "^1.3.14"
+            "version": "^1.3.17"
           },
           {
             "name": "got",
@@ -372,7 +372,7 @@
           },
           {
             "name": "semver",
-            "version": "^5.7.1"
+            "version": "^7.3.2"
           },
           {
             "name": "sharp",
@@ -417,7 +417,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e7f4981aeb230bee73178c8ad5977dbe",
+        "contentDigest": "24fbef990d9a45f10e3fcf24283df6e0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -467,6 +467,10 @@
             "version": "^0.1.11"
           },
           {
+            "name": "aos",
+            "version": "^3.0.0-beta.6"
+          },
+          {
             "name": "cryptiles",
             "version": ">=4.1.3"
           },
@@ -484,11 +488,11 @@
           },
           {
             "name": "gatsby-plugin-manifest",
-            "version": "^2.4.21"
+            "version": "^2.4.25"
           },
           {
             "name": "gatsby-plugin-offline",
-            "version": "^3.2.21"
+            "version": "^3.2.25"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -496,11 +500,11 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.6.24"
+            "version": "^2.6.29"
           },
           {
             "name": "gatsby-source-filesystem",
-            "version": "^2.3.23"
+            "version": "^2.3.26"
           },
           {
             "name": "handlebars",
@@ -516,7 +520,7 @@
           },
           {
             "name": "open",
-            "version": "^7.1.0"
+            "version": "^7.2.0"
           },
           {
             "name": "react-helmet",
@@ -554,7 +558,7 @@
         "devDependencies": [
           {
             "name": "babel-preset-gatsby",
-            "version": "^0.5.4"
+            "version": "^0.5.7"
           },
           {
             "name": "gh-pages",
@@ -668,12 +672,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-08-14T22:31:06.759Z",
+      "buildTime": "2020-08-28T04:42:14.867Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1f4941161610a14613c6d0401821b65e",
+        "contentDigest": "e9d168562e4bf2075f7bb4cdf018a323",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -694,7 +698,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0755930b0e84823c1d7a86d6f9a9e4c5",
+        "contentDigest": "9ada7fc29bd7e3c2ef9b01a8561814a2",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -715,7 +719,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7aa0628929e8c2d0408e7bdb624d24b6",
+        "contentDigest": "b645a1f77622aac6847724f80a8eb7b0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -736,7 +740,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a7f863101472c85e5fa70f9c5d1e4c01",
+        "contentDigest": "b105d055398aeb76e19cb326d4d72d8f",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -757,7 +761,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "77b0748a72240a6ff74cf97cb5a57dd4",
+        "contentDigest": "c8ff1d67e433420f96c80f9e9a14b664",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -778,7 +782,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9a1a64029905572400da651825ab1e66",
+        "contentDigest": "63de295ea52baf7dcdc53f7d6e276a0e",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -786,7 +790,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8214fe05c83dc59d7b4c959fec9418a2"
+    "PLUGINS_HASH": "0f78b84e08e5e40a68cd7721c9f5eb16"
   },
   "componentDataDependencies": {
     "nodes": {
