@@ -41,7 +41,15 @@ const BlogPage = () => (
         Bianchi SuperLeggera and have began cycling! I'm considering joining the
         UCSD Cycling team to see where that leads me.
         <br></br>
+        <br></br>I started riding pretty seriously and I rode 45 miles to Santa
+        Monica on a beautiful ride with my friend Kenna. I feel so alive when I
+        ride and I would love to continue it as a hobby of mine.
         <br></br>
+        <br></br>I am moving back in to UCSD next week to be an RA and I am
+        extremely excited! I cant wait to meet new people and have a place to
+        live on campus throughout the year during this pandemic. I am extremely
+        lucky to be able to go back to campus and I know this year is going to
+        get better with the efforts of so many hardworking people.
       </p>
     </div>
     <div id="Projects">
@@ -65,10 +73,9 @@ const BlogPage = () => (
         the company they work for. The game features a non-linear storyline and
         can be played dozens of times with interesting and unique endings! With
         the help of two of my friends, I was able to make this vision into a
-        reality. My friend Max Zekowski wrote the storylines and my friend Eric
-        drew all illusrations by hand using Adobe Illustrator. Combined, this
-        application may become a reality with a little more work from my friends
-        and me.
+        reality. My friend Max wrote the storylines and my friend Eric drew all
+        illusrations by hand using Adobe Illustrator. Combined, this application
+        may become a reality with a little more work from my friends and me.
         <br></br>
         <br></br>
         This summer I have done some traveling to Bakersfield and San Francisco
