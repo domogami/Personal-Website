@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6583d24c27db16ff25cd0961ba8887f4",
+        "contentDigest": "2a3760fea8dca1bc3bbcd56ca0ccc625",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -547,6 +547,10 @@
             "version": "^11.3.2"
           },
           {
+            "name": "smooth-scroll",
+            "version": "^16.1.3"
+          },
+          {
             "name": "tar-fs",
             "version": ">=1.16.2"
           },
@@ -672,12 +676,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2020-08-28T05:52:06.603Z",
+      "buildTime": "2020-10-28T07:36:58.518Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "220160fba09da4968aa1a97fb1fbfef3",
+        "contentDigest": "08b97f80bb41a3a4666ec7e8bc719eb9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -698,7 +702,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4a9522d14db5eb7abdac397bc1d079b9",
+        "contentDigest": "d21a9c93614c255e9b9d878ad3893e08",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -719,7 +723,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "75d18394f1ab0f4f4498c82111b48814",
+        "contentDigest": "9ba60745071abfadc6bfb81cc03113cf",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -740,7 +744,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "088df01186864321231e01aa9f6abab1",
+        "contentDigest": "39db7a3b42008b40c45bd54ab4cad746",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -761,7 +765,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fb8edb98d19fd6c1f7c8ad8eae0f7629",
+        "contentDigest": "fb4d2e1277c533d15bb45c8351fb4738",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -782,7 +786,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "872c10b197581d61c3bceaf37ca78a59",
+        "contentDigest": "33d1a90f1679e2b9fef7a169be83b57b",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -790,7 +794,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "0f78b84e08e5e40a68cd7721c9f5eb16"
+    "PLUGINS_HASH": "46f2ed08ffa9dae7c8cc64e834482b46"
   },
   "componentDataDependencies": {
     "nodes": {

@@ -10,6 +10,7 @@ import Profile from "../images/profile.jpg";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import LogiLeap from "../images/LogiLeapLogoCircle.png";
 import IEEE from "../images/ieeelogodark.png";
+import IEEEMockUp from "../images/IEEEMockUp.png"
 var ReactRotatingText = require("react-rotating-text");
 
 const IndexPage = () => (
@@ -51,6 +52,23 @@ const IndexPage = () => (
     <div id="Projects">
       <h1 className="TopicHeader">Projects</h1>
       <h1 className="FancyRectangle"></h1>
+    </div>
+    <div
+      data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="11000"
+    >
+      <div className="Projects">
+        <img src={IEEEMockUp} className="enlightenUI" />
+        <div className="ProjectDescription">
+        <ProjectCard
+            title="IEEE Website"
+            link="https://ieeeucsd.netlify.app"
+            text="As the IEEE UCSD Webmaster, I created IEEE UCSD's main website using React. The site is responsive and features engaging animations with a minimalist user interface."
+          />
+        </div>
+      </div>
     </div>
     <div
       data-aos="fade-left"
