@@ -11,6 +11,7 @@ import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import LogiLeap from "../images/LogiLeapLogoCircle.png";
 import IEEE from "../images/ieeelogodark.png";
 import IEEEMockUp from "../images/IEEEMockUp.png"
+{/*import AppStore from "../images/AppStore.png"*/}
 var ReactRotatingText = require("react-rotating-text");
 
 const IndexPage = () => (
@@ -98,7 +99,7 @@ const IndexPage = () => (
         <div className="ProjectDescription">
           <ProjectCard
             title="TimeZone Hero"
-            link="https://github.com/domogami/"
+            link="https://apps.apple.com/us/app/timezone-hero/id1521513208"
             text="TimeZone Hero is an application that shows the user the current time in different regions. Uniquely, the user can alter the time in one zone and see all corresponding timezone changes across regions, making scheduling meetings a breeze. Coming soon to the AppStore"
           />
         </div>
