@@ -15,10 +15,18 @@ import IEEEMockUp from "../images/IEEEMockUp.png"
 import SnowStorm from 'react-snowstorm';
 var ReactRotatingText = require("react-rotating-text");
 
+function renderSnow() {
+  if (typeof window !== 'undefined') {
+    return (
+      <SnowStorm />
+    )
+  }
+}
+
 const IndexPage = () => (
   <div>
     <div className="Main">
-    <SnowStorm />
+      {renderSnow()}
       <div className="MainGroup">
         <img src={Profile} alt="" className="profile-img" />
         <p>Hey, I'm</p>
