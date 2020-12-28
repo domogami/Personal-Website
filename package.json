@@ -27,6 +27,7 @@
     "react-helmet": "^5.2.1",
     "react-rotating-text": "^1.4.1",
     "react-scroll-parallax": "^2.3.4",
+    "react-snowstorm": "0.0.3",
     "react-typist": "^2.0.5",
     "react-typist-loop": "0.0.5",
     "serve": "^11.3.2",

@@ -12,11 +12,13 @@ import LogiLeap from "../images/LogiLeapLogoCircle.png";
 import IEEE from "../images/ieeelogodark.png";
 import IEEEMockUp from "../images/IEEEMockUp.png"
 {/*import AppStore from "../images/AppStore.png"*/}
+import SnowStorm from 'react-snowstorm';
 var ReactRotatingText = require("react-rotating-text");
 
 const IndexPage = () => (
   <div>
     <div className="Main">
+    <SnowStorm />
       <div className="MainGroup">
         <img src={Profile} alt="" className="profile-img" />
         <p>Hey, I'm</p>
