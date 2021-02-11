@@ -9,6 +9,7 @@ import Time from "../images/Time.png";
 import Profile from "../images/profile.jpg";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import LogiLeap from "../images/LogiLeapLogoCircle.png";
+import Amazon from "../images/amazonLogo.png"
 import IEEE from "../images/ieeelogodark.png";
 import IEEEMockUp from "../images/IEEEMockUp.png"
 {/*import AppStore from "../images/AppStore.png"*/}
@@ -136,6 +137,22 @@ const IndexPage = () => (
     <div id="Experience">
       <h1 className="TopicHeader">Experience</h1>
       <h1 className="FancyRectangle"></h1>
+    </div>
+    <div
+      data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="11000"
+    >
+      <div className="ExperienceCard">
+        <img src={Amazon} className="ExperienceImage" />
+        <div className="ExperienceText">
+          <h1>Amazon SDE Internship</h1>
+          <p>
+            Preparing for a Summer 2021 Software Development Engineering Internship at Amazon!
+          </p>
+        </div>
+      </div>
     </div>
     <div
       data-aos="fade-right"
