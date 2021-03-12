@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   font-family: -apple-system, Roboto, BlinkMacSystemFont, "Segoe UI", Oxygen,
@@ -9,6 +10,7 @@ body {
   line-height: 1.4;
   font-size: 20px;
   background: #efeeee;
+  overflow-x: hidden;
 }
 
 .error {
@@ -166,12 +168,16 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   max-width: 900px;
 }
 .ExperienceImage {
   width: 200px;
   margin: auto;
+}
+
+.ExperienceText {
+  max-width: 300px;
 }
 
 .ExperienceText h1 {
@@ -188,24 +194,23 @@ body {
 
 .AboutMe {
   margin: auto;
-  display: grid;
+  justify-items: center;
   font-weight: 400;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  object-fit: cover;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   padding-top: 30px;
-  padding-bottom: 30px;
+
   max-width: 1200px;
+  width: 100%;
 }
 .AboutMeDescription {
   margin: auto;
-  padding: auto;
+  padding: 0 30px;
 }
 
 .CasualPhoto {
   border-radius: 300px;
-  width: 500px;
-  height: 500px;
-  margin: auto;
+  max-width: 500px;
 }
 
 @media (max-width: 1000px) {
@@ -241,9 +246,21 @@ body {
 }
 
 /* For mobile */
-@media (max-width: 480px) {
+@media (max-width: 450px) {
+  .ExperienceCard {
+  }
+  .ExperienceText {
+    margin: auto;
+  }
+
+  .ExperienceText h1 {
+    text-align: center;
+  }
+  .ExperienceText p {
+    text-align: center;
+  }
   .profile-img {
-    margin-top: 10px;
+    margin-top: 0px;
   }
   .enlightenUI {
     margin: auto;
@@ -251,10 +268,10 @@ body {
   }
 
   .CasualPhoto {
-    margin: auto;
     margin-top: 30px;
-    height: 300px;
-    width: 300px;
+    max-width: 300px;
+    height: 100%;
+    padding-bottom: 10px;
   }
   .Main svg {
     margin-bottom: -40px;

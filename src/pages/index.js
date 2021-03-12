@@ -12,7 +12,7 @@ import LogiLeap from "../images/LogiLeapLogoCircle.png";
 import Amazon from "../images/amazonLogo.png"
 import IEEE from "../images/ieeelogodark.png";
 import IEEEMockUp from "../images/IEEEMockUp.png"
-{/*import AppStore from "../images/AppStore.png"*/}
+{/*import AppStore from "../images/AppStore.png"*/ }
 import SnowStorm from 'react-snowstorm';
 var ReactRotatingText = require("react-rotating-text");
 
@@ -26,8 +26,9 @@ function renderSnow() {
 
 const IndexPage = () => (
   <div>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     <div className="Main">
-      {renderSnow()}
+      {/* {renderSnow()} */}
       <div className="MainGroup">
         <img src={Profile} alt="" className="profile-img" />
         <p>Hey, I'm</p>
@@ -74,7 +75,7 @@ const IndexPage = () => (
       <div className="Projects">
         <img src={IEEEMockUp} className="enlightenUI" />
         <div className="ProjectDescription">
-        <ProjectCard
+          <ProjectCard
             title="IEEE Website"
             link="https://ieeeucsd.netlify.app"
             text="As the IEEE UCSD Webmaster, I created IEEE UCSD's main website using React. The site is responsive and features engaging animations with a minimalist user interface."
