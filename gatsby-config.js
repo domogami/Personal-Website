@@ -5,14 +5,14 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-react-helmet",
-    {
-      resolve: "gatsby-plugin-sharp",
-      options: {
-        useMozJpeg: false,
-        stripMetadata: true,
-        defaultQuality: 75,
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-sharp",
+    //   options: {
+    //     useMozJpeg: false,
+    //     stripMetadata: true,
+    //     defaultQuality: 75,
+    //   },
+    // },
     // "gatsby-plugin-manifest",
     // {
     //   resolve: `gatsby-plugin-manifest`,

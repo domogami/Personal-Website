@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/domogami/Documents/GitHub/Personal-Website/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/domogami/Documents/GitHub/Personal-Website/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "926e49d8178faefed28dfcccb022eaa6",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -276,151 +266,11 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-sharp": {
-      "resolve": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-sharp",
-      "id": "Plugin gatsby-plugin-sharp",
-      "name": "gatsby-plugin-sharp",
-      "version": "2.6.29",
-      "pluginOptions": {
-        "plugins": [],
-        "useMozJpeg": false,
-        "stripMetadata": true,
-        "defaultQuality": 75
-      },
-      "nodeAPIs": [
-        "onPostBuild",
-        "onPreBootstrap"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/domogami/Documents/GitHub/Personal-Website/node_modules/gatsby-plugin-sharp",
-      "packageJson": {
-        "name": "gatsby-plugin-sharp",
-        "description": "Wrapper of the Sharp image manipulation library for Gatsby plugins",
-        "version": "2.6.29",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "image",
-          "sharp"
-        ],
-        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.10.3"
-          },
-          {
-            "name": "async",
-            "version": "^2.6.3"
-          },
-          {
-            "name": "bluebird",
-            "version": "^3.7.2"
-          },
-          {
-            "name": "fs-extra",
-            "version": "^8.1.0"
-          },
-          {
-            "name": "gatsby-core-utils",
-            "version": "^1.3.17"
-          },
-          {
-            "name": "got",
-            "version": "^8.3.2"
-          },
-          {
-            "name": "imagemin",
-            "version": "^6.1.0"
-          },
-          {
-            "name": "imagemin-mozjpeg",
-            "version": "^8.0.0"
-          },
-          {
-            "name": "imagemin-pngquant",
-            "version": "^6.0.1"
-          },
-          {
-            "name": "lodash",
-            "version": "^4.17.15"
-          },
-          {
-            "name": "mini-svg-data-uri",
-            "version": "^1.2.3"
-          },
-          {
-            "name": "potrace",
-            "version": "^2.1.8"
-          },
-          {
-            "name": "probe-image-size",
-            "version": "^4.1.1"
-          },
-          {
-            "name": "progress",
-            "version": "^2.0.3"
-          },
-          {
-            "name": "semver",
-            "version": "^7.3.2"
-          },
-          {
-            "name": "sharp",
-            "version": "^0.25.1"
-          },
-          {
-            "name": "svgo",
-            "version": "1.3.2"
-          },
-          {
-            "name": "uuid",
-            "version": "^3.4.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.10.3"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.10.3"
-          },
-          {
-            "name": "babel-preset-gatsby-package",
-            "version": "^0.5.2"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.2.1"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.15"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "24fbef990d9a45f10e3fcf24283df6e0",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/domogami/Documents/GitHub/Personal-Website",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "f6d97e992a98b07108365fa18296134d",
+      "version": "8edb95ca624aa22d3abd9e672f2ff675",
       "pluginOptions": {
         "plugins": []
       },
@@ -477,6 +327,10 @@
             "version": "^1.9.279"
           },
           {
+            "name": "gatsby-cli",
+            "version": "^1.1.58"
+          },
+          {
             "name": "gatsby-link",
             "version": "^1.6.46"
           },
@@ -494,7 +348,7 @@
           },
           {
             "name": "gatsby-plugin-sharp",
-            "version": "^2.6.29"
+            "version": "^2.14.3"
           },
           {
             "name": "gatsby-source-filesystem",
@@ -586,7 +440,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3ee0fcaa33f66bb00e700c5e1a353994",
+        "contentDigest": "f7fc81511fca2ed377b4c703f600cc3e",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -675,16 +529,14 @@
         "title": "I'm Dominick Lee",
         "author": "@Domogami"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2021-03-17T08:17:12.057Z",
+      "buildTime": "2021-03-17T20:56:05.740Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "38f9707fe95e301c947f2e7cb28b6c37",
+        "contentDigest": "5d9213187dceef31625bab4cc0ef1a69",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -705,7 +557,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0a1edb7d1013aa5d0bb9cc3832a6f593",
+        "contentDigest": "87e342b79b28cbfe7617b87b178cf8d6",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -726,7 +578,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "3920b62baef219c928b1415a2a6c170e",
+        "contentDigest": "ac5b68363249c9ab849ccc5e9bb5ea0d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -747,7 +599,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7f4583b8ef555d6af27038f76c0232df",
+        "contentDigest": "dbd2bb4867ef8fa3f9e3388c51ae33e3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -768,7 +620,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "003009614c40c17da5703c0f279cdf54",
+        "contentDigest": "53aaa176b90a54bb381acd456a51853b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -789,7 +641,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "87edef096ee9a72a8d01e9d5f63b4179",
+        "contentDigest": "9b73d5c07b4771eeef61907e627403b0",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -797,7 +649,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "3a4af146d5072fecf9300fb3ea1d3057"
+    "PLUGINS_HASH": "d79512a3c3f0357c2a693c8f39c489b0"
   },
   "componentDataDependencies": {
     "nodes": {

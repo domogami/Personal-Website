@@ -13,3 +13,15 @@ exports.onPreBuild = () => {
   // empty /public folder
   rimraf.sync(PUBLIC_FOLDER + "/*");
 };
+
+//gatsby-node.js
+exports.onCreateWebpackConfig = ({
+  actions,
+}) => {
+  const { setWebpackConfig } = actions;
+  setWebpackConfig({
+    externals: {
+      jquery: 'jQuery', // important: 'Q' capitalized
+    }
+  })
+}

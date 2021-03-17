@@ -7,6 +7,7 @@
  */
 
 import $ from 'jquery';
+// const $ = require("jquery")
 import gsap from 'gsap';
 
 export default class Cursor {

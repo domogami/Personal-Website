@@ -25,7 +25,9 @@ function renderSnow() {
   }
 }
 function renderCursor() {
-  const cursor = new Cursor();
+  if (typeof window !== 'undefined') {
+    const cursor = new Cursor();
+  }
 }
 
 const IndexPage = () => (

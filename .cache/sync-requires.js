@@ -7,7 +7,6 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/404.js")),
   "component---src-pages-blog-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/blog.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/domogami/Documents/GitHub/Personal-Website/src/pages/index.js")),
@@ -16,7 +15,6 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/domogami/Documents/GitHub/Personal-Website/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/domogami/Documents/GitHub/Personal-Website/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/domogami/Documents/GitHub/Personal-Website/.cache/json/404.json"),
   "blog.json": require("/Users/domogami/Documents/GitHub/Personal-Website/.cache/json/blog.json"),
   "index.json": require("/Users/domogami/Documents/GitHub/Personal-Website/.cache/json/index.json"),
