@@ -11,6 +11,7 @@ body {
   font-size: 20px;
   background: #efeeee;
   overflow-x: hidden;
+  cursor: none;
 }
 
 .error {
@@ -74,6 +75,9 @@ body {
   line-height: 1.2;
   animation: MainAnimation 3s 0.2s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
   opacity: 0;
+}
+a {
+  cursor: none;
 }
 
 /* Resume download button */
