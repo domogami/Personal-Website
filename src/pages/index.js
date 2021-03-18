@@ -5,7 +5,7 @@ import CasualPhoto from "../images/casualPhoto2.jpg";
 import Resume from "../downloads/technical_resume.pdf";
 import Light from "../images/Light.jpg";
 import Office from "../images/Office.jpg";
-import Time from "../images/Time.png";
+import Time from "../images/Time.jpg";
 import Profile from "../images/profile.jpg";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import LogiLeap from "../images/LogiLeapLogoCircle.png";

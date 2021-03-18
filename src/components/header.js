@@ -29,6 +29,7 @@ class Header extends React.Component {
     return (
       <div
         className={this.state.hasScrolled ? "Header HeaderScrolled" : "Header"}
+        data-cursor="-color-white"
       >
         <div className="HeaderGroup">
           <a href="/#AboutMe">About Me</a>
