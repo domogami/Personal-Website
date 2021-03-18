@@ -3,15 +3,15 @@ import ProjectCard from "../components/ProjectCard.js";
 import ProjectCardNoLink from "../components/ProjectCardNoLink.js";
 import CasualPhoto from "../images/casualPhoto2.jpg";
 import Resume from "../downloads/technical_resume.pdf";
-import Light from "../images/Light.png";
-import Office from "../images/Office.png";
+import Light from "../images/Light.jpg";
+import Office from "../images/Office.jpg";
 import Time from "../images/Time.png";
 import Profile from "../images/profile.jpg";
 import "../../node_modules/font-awesome/css/font-awesome.min.css";
 import LogiLeap from "../images/LogiLeapLogoCircle.png";
 import Amazon from "../images/amazonLogo.png"
 import IEEE from "../images/ieeelogodark.png";
-import IEEEMockUp from "../images/IEEEMockUp.png"
+import IEEEMockUp from "../images/IEEEMockUp.jpg"
 {/*import AppStore from "../images/AppStore.png"*/ }
 import SnowStorm from 'react-snowstorm';
 var ReactRotatingText = require("react-rotating-text");
@@ -75,7 +75,7 @@ const IndexPage = () => (
         {/* {renderSnow()} */}
         {renderCursor()}
         <div className="MainGroup">
-          <img src={Profile} alt="" className="profile-img" />
+          <img src={Profile} alt="Profile" className="profile-img" />
           <p>Hey, I'm</p>
           <h1>Dominick Lee</h1>
           <h3>
@@ -119,7 +119,7 @@ const IndexPage = () => (
     >
       <div className="Projects">
       <div class="cb-demo-item" data-cursor-text="IEEE Site!">
-        <a href="https://ieeeucsd.org"><img src={IEEEMockUp} className="enlightenUI" /></a>
+        <a href="https://ieeeucsd.org"><img src={IEEEMockUp} alt="IEEE" className="enlightenUI" /></a>
       </div>
         <div className="ProjectDescription">
           <ProjectCard
@@ -145,7 +145,7 @@ const IndexPage = () => (
           />
         </div>
         <div class="cb-demo-item" data-cursor-text="Git Code!">
-          <a href="https://github.com/domogami/Office-Simulator"><img src={Office} className="enlightenUI" /></a>
+          <a href="https://github.com/domogami/Office-Simulator"><img src={Office} alt="Office" className="enlightenUI" /></a>
         </div>
       </div>
     </div>
@@ -158,7 +158,7 @@ const IndexPage = () => (
       <div className="Projects">
         
         <div class="cb-demo-item" data-cursor-text="App Store!">
-          <a href="https://apps.apple.com/us/app/timezone-hero/id1521513208"><img src={Time} className="enlightenUI" /></a>
+          <a href="https://apps.apple.com/us/app/timezone-hero/id1521513208"><img src={Time} alt="Timezone App" className="enlightenUI" /></a>
         </div>
         <div className="ProjectDescription">
           <ProjectCard
@@ -184,7 +184,7 @@ const IndexPage = () => (
           />
         </div>
         <div class="cb-demo-item" data-cursor-text="Git Code!">
-          <img src={Light} className="enlightenUI" />
+          <img src={Light} alt="Enlighten App" className="enlightenUI" />
         </div>
       </div>
     </div>
@@ -200,7 +200,7 @@ const IndexPage = () => (
       data-aos-duration="11000"
     >
       <div className="ExperienceCard">
-        <img src={Amazon} className="ExperienceImage" />
+        <img src={Amazon} alt="Amazon" className="ExperienceImage" />
         <div className="ExperienceText">
           <h1>Amazon SDE Internship</h1>
           <p>
@@ -216,7 +216,7 @@ const IndexPage = () => (
       data-aos-duration="11000"
     >
       <div className="ExperienceCard">
-        <img src={LogiLeap} className="ExperienceImage" />
+        <img src={LogiLeap} alt="logileap" className="ExperienceImage" />
         <div className="ExperienceText">
           <h1>iOS Development Internship</h1>
           <p>
@@ -234,7 +234,7 @@ const IndexPage = () => (
       data-aos-duration="11000"
     >
       <div className="ExperienceCard">
-        <img src={IEEE} className="ExperienceImage" />
+        <img src={IEEE} alt="IEEE" className="ExperienceImage" />
         <div className="ExperienceText">
           <h1>IEEE Officer - Webmaster</h1>
           <p>
@@ -256,7 +256,7 @@ const IndexPage = () => (
         data-aos-easing="ease-in-out"
         data-aos-duration="11000"
       >
-        <img src={CasualPhoto} className="CasualPhoto" />
+        <img src={CasualPhoto} alt="Profile" className="CasualPhoto" />
       </div>
       <div
         data-aos="fade-left"
