@@ -1,3 +1,18 @@
+# My Old Website
+My old website was built with Gatsby and hosted with Netlify. To build locally, clone the repo
+
+```bash
+git clone https://github.com/domogami/Personal-Website.git
+cd Personal-Website
+```
+
+And to develop locally, run the following
+
+```bash
+npm install
+gatsby develop
+```
+
 ### 👋 Hey, I'm Dom
 I'm a Math - Computer Science Major at UCSD with aspirations of becoming a Full Stack Software Engineer! I'm a junior graduating 2022 and actively seeking out internships! If you'd like to collaborate or get in touch, drop me a line at Domogami@gmail.com
 
