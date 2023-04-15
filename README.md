@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a69c2015-ff0b-4374-a22d-8eefc22f2086/deploy-status)](https://app.netlify.com/sites/doms-old-site/deploys)
 # My Old Website
 My old website was built with Gatsby and hosted with Netlify. To build locally, clone the repo
 
